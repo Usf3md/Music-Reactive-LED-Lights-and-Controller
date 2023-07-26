@@ -11,9 +11,9 @@ def init():
     win = pygame.display.set_mode((length, width))
     pygame.display.set_caption("CBEATS")
     icon = pygame.image.load(
-        r"App\Data\Graphics\Circle-icons-rgb.jpg").convert()
+        r"Data\Graphics\Circle-icons-rgb.jpg").convert()
     pygame.display.set_icon(icon)
-    font = pygame.font.Font(r"App\Data\Fonts\LEMONMILK-Bold.otf", 28)
+    font = pygame.font.Font(r"Data\Fonts\LEMONMILK-Bold.otf", 28)
 
 
 # Checks for mode changes
